@@ -1,0 +1,37 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(172, 93, 183);
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+#logo {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+#life {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+#life img {
+    height: 60px;
+    width: 60px;
+}
+
+#maze {
+    margin: auto;
+    width: 605px;
+    height: 605px;
+    border: solid 4px;
+    border-image: linear-gradient(to right top, red, yellow, blue, orange);
+    border-image-slice: 1;
+}
+
+.endGame {
+    margin-top: 35vh;
+    text-align: center;
+    font-size:100px;
+    font-weight: bold;
+}
